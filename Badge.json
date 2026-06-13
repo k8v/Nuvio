@@ -111,45 +111,6 @@
       "type": "filter"
     },
     {
-      "id": "lang-de",
-      "groupId": "language",
-      "name": "German",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(deu(?:tsch)?(?:land)?|ger(?:man)?|german)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "imageURL": "https://files.catbox.moe/077ip5.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
-      "id": "lang-en",
-      "groupId": "language",
-      "name": "English",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(english|eng)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "imageURL": "https://files.catbox.moe/iad0rm.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
-      "id": "lang-es",
-      "groupId": "language",
-      "name": "Spanish",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(spanish|spa|esp|latino|lat)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "imageURL": "https://files.catbox.moe/ue039m.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
       "id": "lang-fr",
       "groupId": "language",
       "name": "French",
@@ -165,7 +126,7 @@
     {
       "id": "b-zpghd3",
       "groupId": "language",
-      "name": "French copy",
+      "name": "VOSTFrench",
       "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(VOSTFR)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
       "imageURL": "https://files.catbox.moe/lp3410.png",
       "tagColor": "#00000000",
@@ -214,6 +175,45 @@
       "isEnabled": true,
       "type": "filter"
     },
+    {
+      "id": "lang-en",
+      "groupId": "language",
+      "name": "English",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(english|eng)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "imageURL": "https://files.catbox.moe/iad0rm.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "lang-de",
+      "groupId": "language",
+      "name": "German",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(deu(?:tsch)?(?:land)?|ger(?:man)?|german)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "imageURL": "https://files.catbox.moe/077ip5.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "lang-es",
+      "groupId": "language",
+      "name": "Spanish",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(spanish|spa|esp|latino|lat)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "imageURL": "https://files.catbox.moe/ue039m.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },    
     {
       "id": "b-bl423e",
       "groupId": "language",
